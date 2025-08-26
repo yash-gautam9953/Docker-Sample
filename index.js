@@ -6,7 +6,7 @@ dotenv.config();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Node.js on Docker 🚀");
+  res.send("Hello, Node.js on Docker 🚀");
 });
 
 app.listen(PORT, () => {
